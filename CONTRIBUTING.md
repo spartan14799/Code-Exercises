@@ -27,16 +27,24 @@ We use a feature-branch workflow. **Do not commit directly to the `main` branch.
 ## Repository Structure
 
 Please organize your files as follows:
+
 - `PlatformName/Difficulty/ProblemName.ext`
 - Example: `LeetCode/Medium/3Sum.rs`
 
 ## Commit Messages
 
 We follow a simple commit message convention:
+
 - `feat: add solution for [Problem Name]`
 - `fix: correct logic in [Problem Name]`
 - `docs: update contributing guidelines`
 - `refactor: optimize time complexity for [Problem Name]`
 
+## Code Style
+
+We support solutions in **Rust, Python, and Julia**. Please ensure your code adheres to our language-specific standards.
+**[Read the Language-Specific Rules here](./docs/language-rules.md)**
+
 ## ⚖️ License
+
 By contributing to this repository, you agree that your contributions will be licensed under the **MIT License**.

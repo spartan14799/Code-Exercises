@@ -1,0 +1,15 @@
+# Rust
+target/
+**/*.exe
+**/*.out
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Julia
+*.jl.cov
+*.jl.mem
+
+# OS
+.DS_Store
