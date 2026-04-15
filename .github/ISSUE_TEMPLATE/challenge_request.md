@@ -1,22 +1,16 @@
 ---
-name:  New Challenge
+name: challenge_request
+about: Propose a new algorithm or problem to solve.
 title: '[PLATFORM]: Problem Name'
 labels: 'status: wip'
 assignees: ''
-
 ---
 
 ## Problem Information
 
-- **Platform:**
+- **Platform:** (LeetCode / Codeforces)
 - **Problem Link:** [Insert Link Here]
-- **Difficulty:** (Easy / Medium / Hard)
 
 ## Goal
 
-Briefly describe what needs to be implemented.
-
-## Planned Stack
-
-- **Language(s):** (Rust / Python / Julia)
-|
+Briefly describe the objective.
