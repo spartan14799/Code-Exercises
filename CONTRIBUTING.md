@@ -11,7 +11,8 @@ First off, thank you for considering contributing! To maintain a clean and profe
 
 We use a feature-branch workflow. **Do not commit directly to the `main` branch.**
 
-- **Branch naming convention:** - `solve/platform-problem-name`
+- **Branch naming convention:**
+  - `solve/platform-problem-name`
   - `refactor/problem-name` (for optimizing existing code)
   - `docs/update-readme` (for documentation changes)
 
