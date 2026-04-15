@@ -1,0 +1,19 @@
+name: "Commit Message Check"
+
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - synchronize
+
+jobs:
+  check-commit-message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Commit Standard
+        uses: gsunit/commit-message-checker-action@v2
+        with:
+          pattern: '^(feat|fix|chore|docs|refactor|test): .+$'
+          error: 'Your commit must follow the format: "type: description" (e.g., feat: add two sum solution)'
+          flags: 'gm'
