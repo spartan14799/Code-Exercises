@@ -34,13 +34,15 @@ Please organize your files as follows:
 
 ## Commit Messages
 
-We follow a simple commit message convention:
+We follow the Conventional Commits standard. Our automated bot will reject any Pull Request whose commit messages do not start with one of the following prefixes:
 
-- `feat: add solution for [Problem Name]`
-- `fix: correct logic in [Problem Name]`
-- `docs: update contributing guidelines`
-- `refactor: optimize time complexity for [Problem Name]`
-
+- **feat:** A new solution or functionality (e.g., feat: add two sum in rust).
+- **fix:** A bug fix in the code (e.g., fix: handle empty input in binary search).
+- **refactor:** Code changes that neither fix a bug nor add a feature (e.g., refactor: optimize space complexity).
+- **test:** Adding missing tests or correcting existing ones (e.g., test: add edge cases for sorting).
+- **docs:** Documentation only changes (e.g., docs: update setup guide).
+- **chore**: Maintenance tasks, dependencies, or tool configuration (e.g., chore: update github actions).
+  
 ## Code Style
 
 We support solutions in **Rust, Python, and Julia**. Please ensure your code adheres to our language-specific standards.
