@@ -11,7 +11,7 @@ First off, thank you for considering contributing! To maintain a clean and profe
 
 We use a feature-branch workflow. **Do not commit directly to the `main` branch.**
 
-- **Branch naming convention:** - `solve/platform-problem-name` (e.g., `solve/leetcode-two-sum`)
+- **Branch naming convention:** - `solve/platform-problem-name`
   - `refactor/problem-name` (for optimizing existing code)
   - `docs/update-readme` (for documentation changes)
 
@@ -19,7 +19,7 @@ We use a feature-branch workflow. **Do not commit directly to the `main` branch.
 
 1. **Create a branch** from `main`.
 2. **Solve the problem** in the appropriate directory.
-3. **Write clean code:** Use descriptive variable names and follow the language-specific style guide (e.g., `snake_case` for Python/Rust, `camelCase` for Java).
+3. **Write clean code:** Use descriptive variable names and follow the language-specific style guide 
 4. **Push your branch** and open a **Pull Request (PR)**.
 5. **Code Review:** Every PR must be reviewed and approved by at least one other maintainer before merging.
 6. **Merge:** Once approved and all tests pass, the branch can be merged into `main`.
